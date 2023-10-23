@@ -32,7 +32,6 @@
             </ul>
         </div>
     </header>
-
     <main class="container">
         <div class="row">
             <div class="col-12 slideshow-container">
@@ -54,79 +53,84 @@
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>   
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>  
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>  
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>  
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>  
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>  
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>  
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>   
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>   
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>   
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>   
+            </div>
             <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
                 <div class="movie-card">
                     <img src="assets/img/movie1.jpg" alt="Movie Title">
                     <h2>Movie Title</h2>
                 </div>
-            </div>           
+            </div>
         </div>
         </div>
     </main>
-
     <footer>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>&copy; 2023 MovieFlix</p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="assets/js/script.js"></script>
 </body>
