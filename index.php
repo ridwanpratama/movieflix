@@ -23,7 +23,6 @@
             <ul class="nav-list">
                 <li class="nav-item">Home</li>
                 <li class="nav-item">Now Playing</li>
-                <li class="nav-item">Upcoming</li>
                 <li class="nav-item">Popular</li>
                 <li class="nav-item">Theaters</li>
             </ul>
@@ -31,6 +30,9 @@
         <div class="col-md-4 col-lg-4 col-xl-4 search">
             <input type="text">
             <button>Search</button>
+            <ul class="nav-list">
+                <li class="nav-item my-account"><i class="fa fa-user"></i>&nbsp;My Account</li>
+            </ul>
         </div>
     </header>
 
@@ -48,9 +50,80 @@
                 </div>
             </div>
             <br>
-            <div class="col-12 airing">
-                <h1>Airing Today</h1>
-            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>   
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>  
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>  
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>  
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>  
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>  
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>  
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>   
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>   
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>   
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>   
+            <div class="col-lg-4 col-xl-2 col-md-4 col-sm-4 col-xs-6 movie airing">
+                <div class="movie-card">
+                    <img src="assets/img/movie1.jpg" alt="Movie Title">
+                    <h2>Movie Title</h2>
+                </div>
+            </div>           
         </div>
         </div>
     </main>

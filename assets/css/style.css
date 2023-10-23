@@ -1,8 +1,8 @@
 :root {
-  --color-primary: #222831;
-  --color-secondary: #393e46;
-  --color-tertiary: #00adb5;
-  --color-white: #fff;
+  --color-primary: #1A120B;
+  --color-secondary: #3C2A21;
+  --color-tertiary: #D5CEA3;
+  --color-white: #E5E5CB;
 }
 
 * {
@@ -31,25 +31,24 @@
 /* End Container */
 
 body {
-  background-color: #222831;
-  color: #fff;
+  background-color: var(--color-white);
+  color: var(--color-white);
 }
 
 .logo {
   font-size: 24px;
   text-decoration: none;
-  color: #00adb5;
-  margin-right: 45px;
+  color: var(--color-white);
 }
 
 header {
-  background-color: #393e46;
+  background-color: var(--color-secondary);
   overflow: hidden;
   padding: 15px;
 }
 
 .nav-list .nav-item {
-  display: inline;
+  display: inline-block;
   margin-right: 20px;
   vertical-align: middle;
   font-family: "Barlow", sans-serif;
@@ -79,9 +78,14 @@ header {
   height: 100%;
   border-radius: 5px;
   border: none;
-  background-color: lightblue;
-  color: black;
+  background-color: var(--color-primary);
+  color: var(--color-white);
   padding: 5px 10px;
+}
+
+.my-account {
+  display: flex;
+  margin-left: 40px;
 }
 
 main {
@@ -92,7 +96,10 @@ main {
 .slideshow-container {
   position: relative;
   margin: 0 auto;
+  margin-top: 5px;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .slideshow-container img {
@@ -118,3 +125,27 @@ main {
   }
 }
 /* Slideshow Ads End */
+
+/* Movie list start */
+.movie-card {
+  background-color: var(--color-secondary);
+  border-radius: 7px;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px 7px 0 0;
+  max-height: 265px;
+  object-fit: cover;  
+}
+
+.movie-card h2 {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+/* Movie list end */
