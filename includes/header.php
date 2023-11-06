@@ -30,7 +30,7 @@
                     <h2>This is the movie title</h2>
                </div>
                <div class="slide-info">
-                    <span class="uppercase">Documentary . 2h 49m</span>
+                    <span class="uppercase">Documentary | 2h 49m</span>
                </div>
                <div class="slide-button">
                     <button class="btn btn-book">Book Now</button>

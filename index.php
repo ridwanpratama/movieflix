@@ -23,58 +23,52 @@
     </div>    
 </section>
 
-<!-- <main class="container">
+<main class="container">    
+<h1 class="title-main">Choose  Your Movie</h1>
     <div class="row">
-        <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+        <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
-                <img src="assets/img/movie1.jpg" alt="Movie Title">
-                <h2><a href="pages/movie-detail.php">Movie Title</a></h2>
+                <img src="assets/img/movie1.jpg" alt="Movie Title"> 
             </div>
         </div>
-        <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+        <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
                 <img src="assets/img/movie1.jpg" alt="Movie Title">
-                <h2><a href="pages/movie-detail.php">Movie Title</a></h2>
             </div>
         </div>
-        <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+        <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
                 <img src="assets/img/movie1.jpg" alt="Movie Title">
-                <h2><a href="pages/movie-detail.php">Movie Title</a></h2>
             </div>
         </div>
-        <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+        <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
                 <img src="assets/img/movie1.jpg" alt="Movie Title">
-                <h2><a href="pages/movie-detail.php">Movie Title</a></h2>
             </div>
         </div>
-        <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+        <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
                 <img src="assets/img/movie1.jpg" alt="Movie Title">
-                <h2><a href="pages/movie-detail.php">Movie Title</a></h2>
             </div>
         </div>
-        <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+        <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
                 <img src="assets/img/movie1.jpg" alt="Movie Title">
-                <h2><a href="pages/movie-detail.php">Movie Title</a></h2>
             </div>
         </div>
-        <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+        <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
                 <img src="assets/img/movie1.jpg" alt="Movie Title">
-                <h2><a href="pages/movie-detail.php">Movie Title</a></h2>
             </div>
         </div>
-        <div class="col-lg-4 col-xl-2 col-md-4 col-sm-6 col-xs-6 movie airing">
+        <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
                 <img src="assets/img/movie1.jpg" alt="Movie Title">
-                <h2><a href="pages/movie-detail.php">Movie Title</a></h2>
             </div>
         </div>
+      
     </div>
-</main> -->
+</main>
 
 <?php include 'includes/footer.php'; ?>
 <script src="assets/js/script.js"></script>

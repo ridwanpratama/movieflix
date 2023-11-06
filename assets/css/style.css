@@ -50,18 +50,6 @@ body {
     color: var(--color-white);
 }
 
-/* div.h-overlay {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    z-index: 999;
-    opacity: 1;
-    color: #fff;
-} */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -85,6 +73,7 @@ header::before {
     margin-right: 20px;
     vertical-align: middle;
     font-size: 18px;
+    align-items: center;
 }
 
 .search {
@@ -257,32 +246,26 @@ main {
     padding: 15px;
 }
 
+.title-main {
+    text-align: center;
+    font-size: 38px;
+    color: var(--color-primary);
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
 /* Movie list start */
 .movie-card {
-    background-color: var(--color-secondary);
     border-radius: 7px;
     padding-bottom: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .movie-card img {
     width: 100%;
     height: auto;
     border-radius: 7px 7px 0 0;
-    max-height: 250px;
-    object-fit: cover;
-}
-
-.movie-card h2 {
-    color: var(--color-white);
-    text-align: center;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.movie-card h2 a {
-    text-decoration: none;
-    color: var(--color-white);
+    max-height: 350px;
+    object-fit: contain;
 }
 
 /* Movie list end */
