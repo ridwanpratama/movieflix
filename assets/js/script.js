@@ -16,8 +16,8 @@ function showSlides() {
 }
 
 window.addEventListener('scroll', function () {
-    var header = document.querySelector('header');
-    var scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const header = document.querySelector('header');
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
     if (scrollTop > 0) {
         header.style.background = 'var(--color-primary)';
