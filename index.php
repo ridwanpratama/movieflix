@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a3b5e10b5f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -33,37 +33,37 @@
         </div>
         <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
-                <img src="assets/img/movie1.jpg" alt="Movie Title">
+                <img src="assets/img/movie2.jpg" alt="Movie Title">
             </div>
         </div>
         <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
-                <img src="assets/img/movie1.jpg" alt="Movie Title">
+                <img src="assets/img/movie3.jpg" alt="Movie Title">
             </div>
         </div>
         <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
-                <img src="assets/img/movie1.jpg" alt="Movie Title">
+                <img src="assets/img/movie4.jpg" alt="Movie Title">
             </div>
         </div>
         <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
-                <img src="assets/img/movie1.jpg" alt="Movie Title">
+                <img src="assets/img/movie5.jpg" alt="Movie Title">
             </div>
         </div>
         <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
-                <img src="assets/img/movie1.jpg" alt="Movie Title">
+                <img src="assets/img/movie6.jpg" alt="Movie Title">
             </div>
         </div>
         <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
-                <img src="assets/img/movie1.jpg" alt="Movie Title">
+                <img src="assets/img/movie7.jpg" alt="Movie Title">
             </div>
         </div>
         <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 movie airing">
             <div class="movie-card">
-                <img src="assets/img/movie1.jpg" alt="Movie Title">
+                <img src="assets/img/movie8.jpg" alt="Movie Title">
             </div>
         </div>
       

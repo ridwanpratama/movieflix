@@ -277,8 +277,36 @@ footer {
     padding: 20px 0;
 }
 
+footer .container {
+    padding: 15px;
+}
+
 footer p {
-    text-align: center;
+    /* text-align: center; */
     font-size: 14px;
     margin: 0;
+}
+
+.find-us {
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.social i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.end p {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.term {
+    line-height: 1.5;
+}
+
+.copyright {
+    margin-top: 10px;
 }
