@@ -38,7 +38,7 @@
                         <h2>This is the movie title</h2>
                     </div>
                     <div class="slide-info">
-                        <span class="uppercase">Documentary . 2h 49m</span>
+                        <span class="uppercase"><strong>Documentary</strong> | 2h 49m</span>
                     </div>                    
                 </div>
                 <div class="slide-sinopsis">

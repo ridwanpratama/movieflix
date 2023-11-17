@@ -17,7 +17,7 @@ input:focus {
 /* Start Container */
 .container {
     width: 100%;
-    max-width: 100vw;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -195,11 +195,24 @@ header::before {
     }
 }
 
+strong {
+    font-weight: bold;
+}
+
 .slide-sinopsis {
     margin-top: 10px;
     left: 10%;
     top: 50%;
     position: absolute;
+}
+
+@media (max-width: 1367px) {
+    .slide-sinopsis {
+        margin-top: 10px;
+        left: 8%;
+        top: 50%;
+        position: absolute;
+    }
 }
 
 .slide-sinopsis span {
@@ -290,9 +303,9 @@ main {
 }
 
 .movie-card img {
-    width: 100%;
+    width: 85%;
     height: auto;
-    border-radius: 7px 7px 0 0;
+    border-radius: 7px;
     max-height: 350px;
     object-fit: contain;
 }
