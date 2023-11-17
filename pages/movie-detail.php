@@ -17,7 +17,7 @@
             </ul>
         </nav>
         <div>
-            <a href="" class="logo">MovieFlix</a>
+            <a href="../index.php" class="logo">MovieFlix</a>
         </div>
         <div class="search">
             <select name="" id="" class="select-teater">
@@ -32,36 +32,6 @@
 
     <div class="row">
         <div class="col-12 slideshow-container">
-            <!-- <div class="slides fade">
-                <div class="slide-content">
-                    <div>
-                        <h2>This is the movie title</h2>
-                    </div>
-                    <div class="slide-info">
-                        <span class="uppercase">Documentary | 2h 49m</span>
-                    </div>
-                    <div class="slide-button">
-                        <button class="btn btn-book">Book Now</button>
-                        <button class="btn btn-watch">Watch Trailer</button>
-                    </div>
-                </div>
-                <img src="<?= BASE_URL . '/assets/img/img_mountains_wide.jpg' ?>" alt="slide promo">
-            </div> -->
-            <!-- <div class="slides fade">
-                <div class="slide-content">
-                    <div>
-                        <h2>This is the movie title</h2>
-                    </div>
-                    <div class="slide-info">
-                        <span class="uppercase">Documentary . 2h 49m</span>
-                    </div>
-                    <div class="slide-button">
-                        <button class="btn btn-book">Book Now</button>
-                        <button class="btn btn-watch">Watch Trailer</button>
-                    </div>
-                </div>
-                <img src="<?= BASE_URL . '/assets/img/img_snow_wide.jpg' ?>" alt="slide promo">
-            </div> -->
             <div class="slides fade">
                 <div class="slide-content">
                     <div>
@@ -69,12 +39,14 @@
                     </div>
                     <div class="slide-info">
                         <span class="uppercase">Documentary . 2h 49m</span>
-                    </div>
-                    <div class="slide-sinopsis">
-                        
-                    </div>
+                    </div>                    
                 </div>
-                <img src="<?= BASE_URL . '/assets/img/img_nature_wide.jpg' ?>" alt="slide promo">
+                <div class="slide-sinopsis">
+                    <span><strong>Director:</strong> Bapak Budi</span>
+                    <span><strong>Cast:</strong> Bapak Budi, Ibu Budi, Kakak Budi, Budi</span>
+                    <p class="sinopsis"><strong>Sinopsis: </strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis odit quia blanditiis est nesciunt. A quo cupiditate natus mollitia labore, neque facere possimus ipsam nam laudantium dignissimos sint numquam voluptates? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nobis dolorem modi et, perferendis corrupti aperiam, distinctio quas praesentium iste officia atque magni, voluptatum nostrum ex. Quam illo molestiae unde?</p>
+                </div>
+                <img src="<?= BASE_URL . '/assets/img/img_snow_wide.jpg' ?>" alt="slide promo">
             </div>
         </div>
     </div>

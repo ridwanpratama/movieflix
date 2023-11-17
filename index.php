@@ -20,7 +20,7 @@
             </ul>
         </nav>
         <div>
-            <a href="" class="logo">MovieFlix</a>
+            <a href="index.php" class="logo">MovieFlix</a>
         </div>
         <div class="search">
             <select name="" id="" class="select-teater">
