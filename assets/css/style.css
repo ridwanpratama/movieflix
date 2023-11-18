@@ -130,9 +130,9 @@ header::before {
 
 .slide-content {
     position: absolute;
-    top: 40%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
     color: var(--color-white);
 }
 
@@ -202,7 +202,7 @@ strong {
 .slide-sinopsis {
     margin-top: 10px;
     left: 10%;
-    top: 50%;
+    top: 48%;
     position: absolute;
 }
 
