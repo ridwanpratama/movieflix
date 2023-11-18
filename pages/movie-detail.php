@@ -3,11 +3,11 @@
 <html lang="en">
 
 <head>
-    <?php include '../includes/head.php';?>
+    <?php include '../includes/head.php'; ?>
 </head>
 
 <body>
-<header>
+    <header>
         <nav class="nav-wrapper">
             <ul class="nav-list">
                 <li class="nav-item">Home</li>
@@ -39,7 +39,7 @@
                     </div>
                     <div class="slide-info">
                         <span class="uppercase"><strong>Documentary</strong> | 2h 49m</span>
-                    </div>                    
+                    </div>
                 </div>
                 <div class="slide-sinopsis">
                     <span><strong>Director:</strong> Bapak Budi</span>
@@ -51,15 +51,60 @@
         </div>
     </div>
 
-    <!-- <section class="main-search">
+
+    <section class="main-search">
         <div class="main-search-wrapper">
-            <input type="text" class="main-search-input" placeholder="Search Movie, Cinema, City...">
+            <i class="fa fa-map-marker" style="color: black;"></i>
+            <select name="" id="" class="select-address">
+                <option value="">Playing In - Jakarta</option>
+            </select>
             <button class="main-search-button">Search</button>
         </div>
-    </section> -->
+    </section>
 
     <main class="container">
-        
+        <div class="card">
+            <div class="card-body">
+                <div class="schedule-wrapper">
+                    <button class="accordion">Lippo Plaza Ekalokasari</button>
+                    <div class="panel">
+                        <div class="type">
+                            <h2>REGULAR 3D RP 35,00</h2>
+                        </div>
+                        <div class="schedule">
+                            <button>11:45</button>
+                            <button>13:00</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-wrapper">
+                    <button class="accordion">Lippo Plaza Ekalokasari</button>
+                    <div class="panel">
+                        <div class="type">
+                            <h2>REGULAR 3D RP 35,00</h2>
+                        </div>
+                        <div class="schedule">
+                            <button>11:45</button>
+                            <button>13:00</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-wrapper">
+                    <button class="accordion">Lippo Plaza Ekalokasari</button>
+                    <div class="panel">
+                        <div class="type">
+                            <h2>REGULAR 3D RP 35,00</h2>
+                        </div>
+                        <div class="schedule">
+                            <button>11:45</button>
+                            <button>13:00</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <?php include '../includes/footer.php'; ?>

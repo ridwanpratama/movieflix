@@ -1,5 +1,9 @@
+document.addEventListener("DOMContentLoaded", function() {
+    showSlides();
+    initAccordion();
+});
+
 let slideIndex = 0;
-showSlides();
 
 function showSlides() {
     let i;
@@ -26,3 +30,23 @@ window.addEventListener('scroll', function () {
         header.style.background = 'linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2))';
     }
 });
+
+function initAccordion() {
+    const acc = document.getElementsByClassName("accordion");
+    let i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+    
+            let panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+                this.style.borderRadius = "8px";
+            } else {
+                panel.style.display = "block";
+                this.style.borderRadius = "8px 8px 0 0";
+            }
+        });
+    }
+}
