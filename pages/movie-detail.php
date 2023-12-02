@@ -12,7 +12,7 @@
             <ul class="nav-list">
                 <li class="nav-item">Home</li>
                 <li class="nav-item">Now Playing</li>
-                <li class="nav-item">Popular</li>
+                <li class="nav-item">Upcoming</li>
                 <li class="nav-item">Theaters</li>
             </ul>
         </nav>
@@ -72,8 +72,8 @@
                             <h2>REGULAR 3D RP 35,00</h2>
                         </div>
                         <div class="schedule">
-                            <button>11:45</button>
-                            <button>13:00</button>
+                            <button class="hour">11:45</button>
+                            <button class="hour">13:00</button>
                         </div>
                     </div>
                 </div>
@@ -85,8 +85,8 @@
                             <h2>REGULAR 3D RP 35,00</h2>
                         </div>
                         <div class="schedule">
-                            <button>11:45</button>
-                            <button>13:00</button>
+                            <button class="hour">11:45</button>
+                            <button class="hour">13:00</button>
                         </div>
                     </div>
                 </div>
@@ -98,8 +98,8 @@
                             <h2>REGULAR 3D RP 35,00</h2>
                         </div>
                         <div class="schedule">
-                            <button>11:45</button>
-                            <button>13:00</button>
+                            <button class="hour">11:45</button>
+                            <button class="hour">13:00</button>
                         </div>
                     </div>
                 </div>
@@ -109,6 +109,7 @@
 
     <?php include '../includes/footer.php'; ?>
     <script src="<?= BASE_URL . '/assets/js/script.js' ?>"></script>
+    <script src="<?= BASE_URL . '/assets/js/movie-detail.js' ?>"></script>
 </body>
 
 </html>

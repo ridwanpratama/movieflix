@@ -15,7 +15,7 @@
             <ul class="nav-list">
                 <li class="nav-item">Home</li>
                 <li class="nav-item">Now Playing</li>
-                <li class="nav-item">Popular</li>
+                <li class="nav-item">Upcoming</li>
                 <li class="nav-item">Theaters</li>
             </ul>
         </nav>

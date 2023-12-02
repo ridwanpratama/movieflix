@@ -180,6 +180,7 @@ header::before {
   padding: 9px 19px;
   border-radius: 5px;
   text-decoration: none;
+  border: 1px solid #fff;
   font-weight: 500;
 }
 
@@ -411,16 +412,15 @@ footer p {
   border: 1px solid lightgray;
 }
 
-.panel .type h2{
-    margin-top: 15px;
-
+.panel .type h2 {
+  margin-top: 15px;
 }
 
 .schedule button {
-    padding: 4px 6px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-right: 5px;
+  padding: 4px 6px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 5px;
 }
 
 /* End Accordion Theater */
