@@ -1,38 +1,40 @@
 header {
-    background-color: var(--color-primary);
+  background-color: var(--color-primary);
 }
 
 /* Seat Section */
 .screen {
-    margin: 0 auto;
-    width: 70%;
-    background-color: var(--color-secondary);
-    height: 15px;
-    margin-bottom: 70px;
-  }
-  
-  .seat-table {
-    margin: 0 auto;    
-  }
+  margin: 0 auto;
+  width: 70%;
+  background-color: var(--color-secondary);
+  height: 15px;
+  margin-bottom: 70px;
+}
 
-  .seat-table td {
-    width: 40px;
-    height: 40px;
-    text-align: center;
-  }
+.seat-table {
+  margin: 0 auto;
+}
 
-  .seat-wrapper {
-    margin: 8% auto;
-    text-align: center;
-  }
+.seat-table td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
 
-  .seat-num {
-    margin-right: 5px
-  }
+.seat-wrapper {
+  margin: 8% auto;
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+}
 
-  .group-seat {
-    margin-top: 10px;
-    margin-bottom: 10px ;
-  }
-  /* Seat Section End */
-  
+.seat-num {
+  margin-right: 5px
+}
+
+.group-seat {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Seat Section End */
